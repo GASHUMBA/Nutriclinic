@@ -1,0 +1,58 @@
+/* custom.css */
+
+/* Form container */
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Form input */
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Form button */
+.form-container button {
+    padding: 0.75rem 1.5rem;
+    background-color: #1d4ed8;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #2563eb;
+}
+
+/* Table styling */
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.table-custom th,
+.table-custom td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-custom th {
+    background-color: #f3f4f6;
+}
+
+.table-custom tr:hover {
+    background-color: #f9fafb;
+}
